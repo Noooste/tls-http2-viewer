@@ -6,7 +6,7 @@ This project aims to better understand TLS connection and specifications as well
 1. Install Golang on https://go.dev/doc/install
 2. Clone the project : `git clone git@github.com:Noooste/tls-http2-viewer.git`
 3. Install the dependencies : `go mod download`
-4. Build the project by doing `go build . -o server`
+4. Build the project by doing `go build -o server .`
 5. Run with `./server`
 
 *The server is now up and is listening on port 443*
